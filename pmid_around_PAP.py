@@ -50,7 +50,7 @@ for split in range(0, 1):
     iter_pmids.set_index('pmid', inplace=True)
 
     # Open output files in write mode
-    #outfile = open(directory + 'SimilarPMIDs/' + 'PMC_PMID_NeighborScore_' + version + '_' + str(split) + '.txt', "w+")
+    #outfile = open(directory + 'SimilarPMIDs/' + 'PMC_PMID_NeighborScore_' + 'pmid_list_around_PAP' + '_' + str(split) + '.txt', "w+")
     outfile = open(directory + 'PMC_PMID_NeighborScore_' + 'pmid_list_around_PAP' + '_' + str(split) + '.txt', "w+")
 
     outfile.write('dbfrom' +'\t'+ 'pmid_focal' +'\t'+ 'dbto' +'\t'+ 'linkname' +'\t'+ 'pmid' +'\t'+ 'score' +'\t'+ 'time_stamp' +'\t'+ 'status_code' + '\n')
