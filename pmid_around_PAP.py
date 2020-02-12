@@ -12,7 +12,8 @@ from datetime import datetime
 #directory = '/disk/bulkw/staudt/RAWDATA/PMC_Live/'
 #directory = 'B:/Research/RAWDATA/PMC_Live/'
 #directory = 'B:/Research/RAWDATA/PMC_Live_2/'
-directory = 'C:/Users/JoeS/Desktop/'
+#directory = 'C:/Users/JoeS/Desktop/'
+directory = '/disk/bulkw/staudt/Projects/PMC_OA/PMC_OA_2/data/'
 
 # Load in full list of articles available on PubMed Central (PMC)
 #   These were downloaded on 6/26/2019 as ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/PMC-ids.csv.gz
